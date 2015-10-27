@@ -1,0 +1,53 @@
+JavaScriptの基本データ型(プリミティブ)
+　・数値Number
+　　　123, 123.45, 1.23e+12
+　・文字列String
+　　　"abc", 'xyz'
+　・真偽値Boolean
+　　　true, false
+　・ヌルNull
+　　　null
+　・未定義Undefined
+　　　undefined
+
+他は全部オブジェクト(Object)
+　・オブジェクト (Object)
+　　　{}, {x:1, y:"abc"}
+　　　new Object({})
+　　　Object.create(Object.prototype)
+　　　※RubyのHashと同じ様なものでキーは文字列
+　・関数 (Function < Object)
+　　　function () {} で定義
+　　　　function 文とfunction 式がある。
+　　　new Function('x,y', 'return x+y') 等
+　・配列 (Array < Object)
+　　　[], [1, 2, "ab", "cd"]
+　　　new Array(1, 2, "ab", "cd")
+　　　new Array(4)
+　・文字列 (String < Object)
+　　　new String("abc")
+　・真偽値 (Boolean < Object)
+　　　new Boolean(true)
+　・数値 (Number < Object)
+　　　new Number(123)
+　・Math (Math < Object)
+　　　Math.pow(2, 8) // -> 256
+　・Date (Date < Object)
+　　　new Date()
+　・エラー (Error < Object)
+　　　new Error("error message")
+　　　以下 < Error < Object です。
+　　　EvalError, RangeError,
+　　　ReferenceError, SyntaxError,
+　　　TypeError, URIError
+　　　NativeError
+　・正規表現 (RegExp < Object)
+　　　/pat/gi
+　　　new RegExp("pat", "gi")
+　・JSON (JSON < Object)
+　　　JSON.stringify(obj)
+　　　JSON.parse(str)
+　・Globalオブジェクト
+　　　NaN, Infinity, undefinedなど
+　　　parseIntなど他多数
+
