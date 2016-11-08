@@ -1,3 +1,4 @@
+http://www2u.biglobe.ne.jp/~oz-07ams/2002/ecma262r3/
 http://www2u.biglobe.ne.jp/~oz-07ams/prog/ecma262r3/
 
 Under Translation of ECMA-262 3rd Edition
